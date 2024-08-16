@@ -27,7 +27,7 @@ section{
 /* font */
 @font-face {
     font-family: Poppins;
-    src: url('../fonts/Poppins-Regular.ttf');
+    src: url('./assets/fonts/Poppins-Regular.ttf');
 }
 /* utilities */
 .d-flex{
@@ -62,7 +62,7 @@ section{
 header{
     height: 100vh;
     background-color: #646464;
-    background-image: url('../img/hero-bg.jpg');
+    background-image: url('./assets/images/hero-bg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
