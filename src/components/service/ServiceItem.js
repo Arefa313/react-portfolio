@@ -1,4 +1,5 @@
-function ServiceItem(){
+import Service from "./Service"
+function ServiceItem(props){
 return(
 <div className="col-4">
                 <div className="service-box">
@@ -6,11 +7,9 @@ return(
                     <i className="bi bi-briefcase"></i>
                   </div>
                   <div className="service-content">
-                    <h3 className="service-title">WEB DESIGN</h3>
+                    <h3 className="service-title">{props.serviceTitle}</h3>
                     <p className="service-info">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-                      adipisci eaque autem fugiat! Quia, provident vitae! Magni
-                      tempora perferendis eum non provident.
+                     {props.serviceInfo}
                     </p>
                   </div>
                 </div>
