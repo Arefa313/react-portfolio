@@ -6,7 +6,7 @@ function Header(){
         <header>
           <div className="navbar-container">
             <div className="container d-flex justify-content-between align-items-center">
-              <h2 className="logo">Next1Code</h2>
+              <h2 className="logo">Portfolio</h2>
               <nav className="navbar">
                 <ul className="d-flex">
                   <li><a className="nav-link" href="#hero">Home</a></li>
