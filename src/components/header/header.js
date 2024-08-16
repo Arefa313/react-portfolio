@@ -17,7 +17,7 @@ function Header(){
               </nav>
             </div>
           </div>
-          <h1 className="hero-title">I am Milad Bahrami</h1>
+          <h1 className="hero-title">I am Arefa Noori</h1>
           <p className="hero-desc">Hello, world!</p>
         </header>
     
