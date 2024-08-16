@@ -1,8 +1,8 @@
 header{
     height: 100vh;
     background-color: #646464;
-    background-image: url('../../assets/images/hero-bg.jpg');
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;    background-image: url('../../assets/images/hero-bg.jpg');
+
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
