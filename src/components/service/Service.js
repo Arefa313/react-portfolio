@@ -5,20 +5,32 @@ import ServiceItem from './ServiceItem'
 function Service(){
   let services =[
     {
-      serviceIcon: '',
+      serviceIcon: 'bi bi-briefcase',
       serviceTitle:'WEB DESIGN',
-      serviceInfo:' Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnadipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.',
+      serviceInfo:' (1)Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnadipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.',
     },
     {
-      serviceIcon: '',
+      serviceIcon: 'bi bi-card-checklist',
       serviceTitle:'WEB DEVELOPMNT',
-      serviceInfo:' Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnadipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.',
+      serviceInfo:' (2)Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnadipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.',
     },
     {
-      serviceIcon: '',
+      serviceIcon: 'bi bi-bar-chart',
       serviceTitle:'PHOTOGRAPHY',
-      serviceInfo:' Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnadipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.',
+      serviceInfo:' (3)Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnadipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.',
     },
+   { serviceIcon: 'bi bi-binoculars',
+    serviceTitle:'RESPONSIVE DESIGN',
+    serviceInfo:' (4)Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnadipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.',
+  },
+  {serviceIcon: 'bi bi-brightness-high',
+  serviceTitle:'GRAPHIC DESIGN',
+  serviceInfo:' (5)Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnadipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.',
+},
+{serviceIcon: 'bi bi-calendar4-week',
+serviceTitle:'MARKETING SERVICES',
+serviceInfo:' (6)Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnadipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.',
+},
   ]
     return(
         <section id="services">
@@ -31,11 +43,11 @@ function Service(){
             </div>
             <div className="row">
           <ServiceItem {...services[0]}/>
-          <ServiceItem />
-          <ServiceItem />
-          <ServiceItem />
-          <ServiceItem />
-          <ServiceItem />
+          <ServiceItem {...services[1]}/>
+          <ServiceItem {...services[2]}/>
+          <ServiceItem {...services[3]}/>
+          <ServiceItem {...services[4]}/>
+          <ServiceItem {...services[5]}/>
             </div>
           </div>
         </section>

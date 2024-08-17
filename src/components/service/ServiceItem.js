@@ -5,7 +5,7 @@ return(
 <div className="col-4">
                 <div className="service-box">
                   <div className="service-icon">
-                    <i className="bi bi-briefcase"></i>
+                    <i className="{props.serviceIcon}"></i>
                   </div>
                   <div className="service-content">
                     <h3 className="service-title">{props.serviceTitle}</h3>
