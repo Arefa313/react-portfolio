@@ -4,7 +4,7 @@ function BlogItem(props){
         <div className="col-4">
         <div className="blog-box">
           <div classname="blog-img">
-            <img src={props.blogImage} classname="img-fluid, post-author-img" />
+            <img src={props.blogImage} classname="img-fluid" />
           </div>
           <div classname="blog-content">
             <h3 classname="blog-title">{props.blogTitle}</h3>
