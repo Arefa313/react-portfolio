@@ -20,7 +20,9 @@
     justify-content: space-between;
     align-items: center;
 }
-.img-fluid{
-    width: 40px;
-    border-radius: 50%;
+
+
+img{
+    width:365px;
+    /* border-radius: 50%; */
 }
